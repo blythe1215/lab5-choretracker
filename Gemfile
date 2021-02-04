@@ -29,6 +29,8 @@ gem 'jbuilder', '2.7.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '3.1.11'
 
+gem 'turbolinks'
+
 # Security updates for Github
 gem 'sprockets', '>= 3.7.2'
 gem 'rubyzip', '>= 1.2.2'
