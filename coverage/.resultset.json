@@ -67,11 +67,16 @@
       ],
       "/Users/blythe/Desktop/lab5-choretracker/app/models/chore.rb": [
         1,
+        null,
+        null,
+        null,
+        1,
+        1,
         null
       ],
       "/Users/blythe/Desktop/lab5-choretracker/app/models/task.rb": [
-        0,
-        0
+        1,
+        null
       ],
       "/Users/blythe/Desktop/lab5-choretracker/app/controllers/application_controller.rb": [
         0,
@@ -325,6 +330,6 @@
         0
       ]
     },
-    "timestamp": 1612461484
+    "timestamp": 1612461795
   }
 }
