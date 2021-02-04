@@ -37,6 +37,13 @@ class ChildTest < ActiveSupport::TestCase
      assert_equal ["Alex", "Mark", "Rachel"], Child.alphabetical.map{|c| c.first_name}
    end
 
+   should "show the correct points earned by children" do 
+   	assert_equal 4, @alex.points_earned
+   	assert_equal 1, @mark.points_earned
+   	assert_equal 0, @rachel.points_earned
+
+   end
+
    should "have a scope to select only active children" do
      assert_equal ["Alex", "Mark"], Child.active.alphabetical.map{|c| c.first_name}
    end
