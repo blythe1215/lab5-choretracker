@@ -21,8 +21,8 @@
     <%= f.collection_select :task_id, Task.alphabetical.active.all, :id, :name, :prompt => "Select task..." %>
   </div>
   <div class="field">
-    <%= f.label :due_on, :order => [:month, :day, :year] %><br />
-    <%= f.date_select :due_on %>
+    <%= f.label :due_on %><br />
+    <%= f.date_select :due_on, :order => [:month, :day, :year] %>
   </div>
   <div class="field">
     <%= f.label :completed %><br />

@@ -1,18 +1,18 @@
-<p id="notice"><%= notice %></p>
+
 
 <p>
   <b>Child:</b>
-  <%= @chore.child_id %>
+  <%= @chore.child.name %>
 </p>
 
 <p>
   <b>Task:</b>
-  <%= @chore.task_id %>
+  <%= @chore.task.name %>
 </p>
 
 <p>
   <b>Due on:</b>
-  <%= @chore.due_on %>
+  <%= @chore.due_on.strftime('%b %d') %>
 </p>
 
 <p>
